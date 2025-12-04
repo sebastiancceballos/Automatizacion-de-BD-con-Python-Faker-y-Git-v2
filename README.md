@@ -1,4 +1,4 @@
-Descripción corta del proyecto
+
 
 #  Actividad 3 – Inserción Masiva de Datos con Python, Faker y MySQL
 
