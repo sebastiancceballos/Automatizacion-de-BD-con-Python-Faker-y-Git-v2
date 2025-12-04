@@ -59,8 +59,8 @@ La tabla `personas_sebastiancardona` contiene las siguientes columnas:
 
 ###  Clonar el repositorio
 ```bash
-git clone <url-del-repositorio >
-cd <carpeta-del-proyecto > 
+git clone https://github.com/sebastiancceballos/Automatizacion-de-BD-con-Python-Faker-y-Git-v2
+
 ```
 
 ### Crear y activar entorno virtual
