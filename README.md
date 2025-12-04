@@ -60,26 +60,58 @@ La tabla `personas_<tu_nombre>` contiene las siguientes columnas:
 ###  Clonar el repositorio
 ```bash
 git clone <url-del-repositorio >
-cd <carpeta-del-proyecto >
+cd <carpeta-del-proyecto > 
+```
 
 ### Crear y activar entorno virtual
 
-Crear y activar entorno virtual
+``` bash
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+```
 
 ### instalar dependencias 
-
+```bash
 pip install -r requirements.txt
+```
 
 ### Configurar variables de entorno
-
+```bash
 DB_USER=root
 DB_PASS=tu_contrasena
 DB_HOST=localhost
 DB_PORT=3306
 DB_NAME=actividad3
+```
 
-
-###Ejecutar el script principal
-
+### Ejecutar el script principal
+```bash
 python main.py
+```
+
+### Verificación en MySQL
+```bash
+SELECT COUNT(*) FROM personas_sebastiancardona;
+```
+
+### Archivos importantes del proyecto
+
+main.py → script principal que crea la tabla e inserta datos.
+
+requirements.txt → dependencias del proyecto.
+
+.env.example → plantilla para credenciales.
+
+.gitignore → evita subir entorno virtual y secretos.
+
+README.md → documentación del proyecto.
+
+
+👨‍💻 Autor
+
+Sebastián Cardona Ceballos
+Universidad de Antioquia – Bases de Datos
+
+
+
 
