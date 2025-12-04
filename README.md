@@ -16,7 +16,7 @@ La actividad se desarrolla en el entorno de un proyecto real de  datos, siguiend
 ##  Características del proyecto
 
 - Conexión automática a MySQL usando SQLAlchemy.
-- Creación de la tabla: `personas_<tu_nombre>`  
+- Creación de la tabla: `personas_sebastiancardona`  
 - Generación de datos falsos realistas (es_CO).
 - Inserción eficiente en lotes (batch size configurable).
 - Borra automáticamente la tabla antes de generar nuevos datos (opcional).
@@ -27,7 +27,7 @@ La actividad se desarrolla en el entorno de un proyecto real de  datos, siguiend
 
 ##  Estructura de la tabla
 
-La tabla `personas_<tu_nombre>` contiene las siguientes columnas:
+La tabla `personas_sebastiancardona` contiene las siguientes columnas:
 
 | Campo       | Tipo        | Descripción                     |
 |-------------|-------------|----------------------------------|
